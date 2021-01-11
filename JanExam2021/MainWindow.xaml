@@ -7,6 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <CheckBox x:Name="CBox1" Content="Current Accounts" HorizontalAlignment="Left" Height="17" Margin="31,24,0,0" VerticalAlignment="Top" Width="124"/>
+        <CheckBox x:Name="CBox2" Content="Savings Accounts" HorizontalAlignment="Left" Height="17" Margin="160,24,0,0" VerticalAlignment="Top" Width="122" RenderTransformOrigin="0.297,-1.235"/>
+        <ListBox x:Name="LBox" HorizontalAlignment="Left" Height="342" Margin="31,69,0,0" VerticalAlignment="Top" Width="251"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="31,46,0,0" TextWrapping="Wrap" Text="Accounts List" VerticalAlignment="Top" Width="77"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="339,46,0,0" TextWrapping="Wrap" Text="Account Details" VerticalAlignment="Top" Width="88"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="339,74,0,0" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top" Width="88"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="339,111,0,0" TextWrapping="Wrap" Text="Second Name" VerticalAlignment="Top" Width="88"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="339,148,0,0" TextWrapping="Wrap" Text="Balance" VerticalAlignment="Top" Width="88"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="339,198,0,0" TextWrapping="Wrap" Text="Account Type" VerticalAlignment="Top" Width="88"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="339,236,0,0" TextWrapping="Wrap" Text="Balance" VerticalAlignment="Top" Width="88"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="339,276,0,0" TextWrapping="Wrap" Text="Interest Date" VerticalAlignment="Top" Width="88"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="339,346,0,0" TextWrapping="Wrap" Text="Transaction Amount" VerticalAlignment="Top" Width="112"/>
+        <TextBlock x:Name="FNTBlock" HorizontalAlignment="Left" Height="19" Margin="427,74,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="88"/>
+        <TextBlock x:Name="SNTBlock" HorizontalAlignment="Left" Height="19" Margin="427,111,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="88"/>
+        <TextBlock x:Name="BTBlock1" HorizontalAlignment="Left" Height="19" Margin="427,148,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="88"/>
+        <TextBlock x:Name="ATTBlock" HorizontalAlignment="Left" Height="19" Margin="427,198,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="88"/>
+        <TextBlock x:Name="BTBlock2" HorizontalAlignment="Left" Height="19" Margin="427,236,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="88"/>
+        <TextBlock x:Name="IDTBlock" HorizontalAlignment="Left" Height="19" Margin="427,276,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="88"/>
+        <TextBox x:Name="TBox" HorizontalAlignment="Left" Height="19" Margin="480,345,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="88"/>
+        <Button Content="Deposit" HorizontalAlignment="Left" Height="37" Margin="621,93,0,0" VerticalAlignment="Top" Width="126"/>
+        <Button Content="Withdraw" HorizontalAlignment="Left" Height="37" Margin="621,180,0,0" VerticalAlignment="Top" Width="126"/>
+        <Button Content="Interest" HorizontalAlignment="Left" Height="37" Margin="621,265,0,0" VerticalAlignment="Top" Width="126"/>
+
     </Grid>
 </Window>
