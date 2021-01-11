@@ -11,8 +11,9 @@ namespace JanExam2021
         public string FirstName { get; set; } // first name property
         public string Surname { get; set; } // surname property
         public decimal Balance { get; set; } // balance property
-        public DateTime InterestDate { get; set; } // surname property
+        public DateTime InterestDate { get; set; } // InterestDate property
         public int AccountNumber { get; set; } // account number property
+        public decimal TransactionAmount { get; set; } // transaction property
 
         public decimal Withdraw() // method to withdraw money
         {
@@ -26,6 +27,11 @@ namespace JanExam2021
         }
 
         public abstract decimal CalculateIntrest(); // absract method to calc interest
+
+        public override string ToString() // display for listbox
+        {
+            return string.Format($"{AccountNumber},{Surname}, {FirstName}");
+        }
     }
 
     public class CurrentAccount : Account // inherited class
